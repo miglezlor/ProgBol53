@@ -8,7 +8,7 @@ package bol53;
 public class Circulo {
     private double radio;
     final double PI=3.14;
-    private double radio2;
+    
     
     public Circulo (){
         
@@ -17,10 +17,10 @@ public class Circulo {
         radio=r;
     }
     public double calcularArea (){
-        radio2 =Math.pow(radio, 2);
-        return (PI*radio2);
+        
+        return PI*Math.pow(radio,2);
     }
     public double calcularLonxitude(){
-        return (PI*radio*2);
+        return PI*radio*2;
     }
 }
